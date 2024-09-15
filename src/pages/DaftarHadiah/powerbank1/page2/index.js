@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import powerbank from "../../../../assets/icons/powerbank.png";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Powerbank",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/powerbank.png",
+        imageUrl: powerbank,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -41,9 +41,7 @@ const LoginPage = () => {
           <h5 className={styles.textWalletH5}>Selesaikan Tantangan ini!</h5>
         </Row>
         <Card title="Quest Tantangan">
-          <p>
-          Pose Ayam: Pose ayam dan tirukan suara ayam selama 1 menit.
-          </p>
+          <p>Pose Ayam: Pose ayam dan tirukan suara ayam selama 1 menit.</p>
         </Card>
 
         <p className="mt-5">

@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import auckey from "../../../../assets/icons/auckey.jpg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Aukey PA-B6U-GY",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/auckey.jpg",
+        imageUrl:auckey,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",

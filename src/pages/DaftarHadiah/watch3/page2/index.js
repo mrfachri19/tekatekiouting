@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import watch from "../../../../assets/icons/watch3.png";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Xiaomi Redmi Watch 3 Active",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/watch3.png",
+        imageUrl: watch,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -41,9 +41,7 @@ const LoginPage = () => {
           <h5 className={styles.textWalletH5}>Selesaikan Tantangan ini!</h5>
         </Row>
         <Card title="Quest Tantangan">
-          <p>
-           Tarik satu rekan kerja lawan jenismu dan ungkapin cinta ke dia 
-          </p>
+          <p>Tarik satu rekan kerja lawan jenismu dan ungkapin cinta ke dia</p>
         </Card>
 
         <p className="mt-5">

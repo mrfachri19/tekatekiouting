@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import airfrayer from "../../../../assets/icons/airfrayer.png";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat  Cocka Airfrayer 4L",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/airfrayer.png",
+        imageUrl: airfrayer,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,8 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Jongkok Komando: Lakukan 10 kali jongkok sambil berteriak "Komando!" setiap kali turun, disertai ekspresi tegas.
+            Jongkok Komando: Lakukan 10 kali jongkok sambil berteriak "Komando!"
+            setiap kali turun, disertai ekspresi tegas.
           </p>
         </Card>
 

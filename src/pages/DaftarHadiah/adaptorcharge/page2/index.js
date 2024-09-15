@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import adaptor from "../../../../assets/icons/adaptor.jpg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Aukey Adaptor Charger Multi Port",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/adaptor.jpg",
+        imageUrl: adaptor,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",

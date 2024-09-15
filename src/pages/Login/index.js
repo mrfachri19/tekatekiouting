@@ -34,37 +34,194 @@ const LoginPage = () => {
         >
           Selamat Datang di Tablelink outing doorprize 2024
         </p>
-        <div className="mb-2">
-          <QRCode value={"sss"} />
-          <Input placeholder="-" maxLength={60} value={""} disabled  />
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize1"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize1"}
+            disabled
+          />
         </div>
-        <div className="mb-2">
-          <QRCode value={"sss"} />
-          <Input placeholder="-" maxLength={60} value={""} disabled  />
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize2"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize2"}
+            disabled
+          />
         </div>
-        <div className="mb-2">
-          <QRCode value={"sss"} />
-          <Input placeholder="-" maxLength={60} value={""} disabled  />
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize3"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize3"}
+            disabled
+          />
         </div>
-        <div className="mb-2">
-          <QRCode value={"sss"} />
-          <Input placeholder="-" maxLength={60} value={""} disabled  />
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize4"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize4"}
+            disabled
+          />
         </div>
-        <div className="mb-2">
-          <QRCode value={"sss"} />
-          <Input placeholder="-" maxLength={60} value={""} disabled  />
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize5"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize5"}
+            disabled
+          />
         </div>
-        <div className="mb-2">
-          <QRCode value={"sss"} />
-          <Input placeholder="-" maxLength={60} value={""} disabled  />
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize6"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize6"}
+            disabled
+          />
         </div>
-        <div className="mb-2">
-          <QRCode value={"sss"} />
-          <Input placeholder="-" maxLength={60} value={""} disabled  />
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize7"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize7"}
+            disabled
+          />
         </div>
-        <div className="mb-2">
-          <QRCode value={"sss"} />
-          <Input placeholder="-" maxLength={60} value={""} disabled  />
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize8"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize8"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize9"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize9"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize10"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize10"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize11"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize11"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize12"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize12"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize13"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize13"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize14"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize14"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize15"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize15"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize16"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize16"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize17"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize17"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize18"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize18"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize19"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize19"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize20"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize20"}
+            disabled
+          />
+        </div>
+        <div className="mb-5">
+          <QRCode size={300} value={"tekatekiouting.vercel.app/doorprize21"} />
+          <Input
+            placeholder=""
+            maxLength={60}
+            value={"tekatekiouting.vercel.app/doorprize21"}
+            disabled
+          />
         </div>
       </Container>
     </div>

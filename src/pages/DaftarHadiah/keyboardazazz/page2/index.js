@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import keyboard from "../../../../assets/icons/keyboard.jpeg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Keyboard Ajazz",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/keyboard.jpeg",
+        imageUrl: keyboard,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,8 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Manekin Pose: Berdirilah diam dalam pose konyol seperti manekin selama 30 detik tanpa bergerak.
+            Manekin Pose: Berdirilah diam dalam pose konyol seperti manekin
+            selama 30 detik tanpa bergerak.
           </p>
         </Card>
 

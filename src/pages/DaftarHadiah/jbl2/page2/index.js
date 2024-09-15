@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import jbl from "../../../../assets/icons/jbl.jpeg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,7 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat JBL GO 2 Portable ",
-        imageUrl: "https://tekateki-7otn.vercel.app/static/media/jbl.jpeg",
+        jbl,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",

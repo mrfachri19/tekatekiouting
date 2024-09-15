@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import powerbank from "../../../../assets/icons/powerbank.png";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Powerbank",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/powerbank.png",
+        imageUrl: powerbank,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,8 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Ngomong Terbalik: Cobalah berbicara dengan urutan kata yang dibalik, misalnya "Kerja hari ini?" menjadi "Ini hari kerja?"
+            Ngomong Terbalik: Cobalah berbicara dengan urutan kata yang dibalik,
+            misalnya "Kerja hari ini?" menjadi "Ini hari kerja?"
           </p>
         </Card>
 

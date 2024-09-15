@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import redmi from "../../../../assets/icons/redmibud.jpeg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Anker Redmi Buds 5",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/redmibud.jpeg",
+        imageUrl: redmi,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,8 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Suara Tinggi: nyanyikan balonku ada 5 dengan suara tinggi dan ganti huruf a jd i
+            Suara Tinggi: nyanyikan balonku ada 5 dengan suara tinggi dan ganti
+            huruf a jd i
           </p>
         </Card>
 

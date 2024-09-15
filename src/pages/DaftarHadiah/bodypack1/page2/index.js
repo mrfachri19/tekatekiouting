@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import bodypack from "../../../../assets/icons/bodypack.jpeg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Tas Bodypack",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/bodypack.jpeg",
+        imageUrl: bodypack,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,9 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Selfie Challenge: Ambil selfie dengan ekspresi wajah kocak lalu kirim ke grup WhatsApp kantor dengan caption "Hasil meeting yang serius!"
+            Selfie Challenge: Ambil selfie dengan ekspresi wajah kocak lalu
+            kirim ke grup WhatsApp kantor dengan caption "Hasil meeting yang
+            serius!"
           </p>
         </Card>
 

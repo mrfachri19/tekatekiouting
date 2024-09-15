@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import huweiband1 from "../../../../assets/icons/huaweiband.png";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Huawei Band 9",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/huaweiband.png",
+        imageUrl: huweiband1,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,8 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Jalan ala Model: Berjalan di atas seutas garis (atau tali imajiner) seperti model di runway, lengkap dengan pose di akhir.
+            Jalan ala Model: Berjalan di atas seutas garis (atau tali imajiner)
+            seperti model di runway, lengkap dengan pose di akhir.
           </p>
         </Card>
 

@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import smartband from "../../../../assets/icons/samrtband.jpeg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Xiaomi Smartband 9",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/samrtband.jpeg",
+        imageUrl: smartband,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,9 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Foto Selfie Ekspresi Menangis: Ambil foto selfie dengan ekspresi menangis yang dramatis, dan posting dengan caption “Kehabisan kopi di kantor!”
+            Foto Selfie Ekspresi Menangis: Ambil foto selfie dengan ekspresi
+            menangis yang dramatis, dan posting dengan caption “Kehabisan kopi
+            di kantor!”
           </p>
         </Card>
 

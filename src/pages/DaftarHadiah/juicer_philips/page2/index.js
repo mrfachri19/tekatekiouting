@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import pilip from "../../../../assets/icons/juicer.jpg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat juicer philips",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/tgsampah.83ec348bc58c5c600e0a.jpg",
+        imageUrl: pilip,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",

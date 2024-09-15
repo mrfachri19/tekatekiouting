@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import soundbar from "../../../../assets/icons/soundbar.jpeg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Redmi Soundbar Active Speaker 30 W Home Theater Bluetooth 5.0",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/soundbar.jpeg",
+        imageUrl: soundbar,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,8 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Gulung Muka dengan Plastik Wrap: Gunakan plastik wrap dan gulung di sekitar wajah seperti superhero, lalu berpose dengan gagah!
+            Gulung Muka dengan Plastik Wrap: Gunakan plastik wrap dan gulung di
+            sekitar wajah seperti superhero, lalu berpose dengan gagah!
           </p>
         </Card>
 

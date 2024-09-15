@@ -6,6 +6,7 @@ import { IconTableLink } from "../../../../assets";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Swal from "sweetalert2";
+import soundbar from "../../../../assets/icons/soundbar.jpeg";
 
 const LoginPage = () => {
   const [jawaban, setJawaban] = useState("");
@@ -15,8 +16,7 @@ const LoginPage = () => {
       Swal.fire({
         title: "Selamat!",
         text: "Anda mendapat Redmi Soundbar Active Speaker 30 W Home Theater Bluetooth 5.0",
-        imageUrl:
-          "https://tekateki-7otn.vercel.app/static/media/soundbar.jpeg",
+        imageUrl: soundbar,
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "philips",
@@ -42,7 +42,8 @@ const LoginPage = () => {
         </Row>
         <Card title="Quest Tantangan">
           <p>
-          Breakdancing Dadakan: Coba lakukan gerakan breakdance meski tidak bisa, dan tunjukkan gayamu selama 30 detik.
+            Breakdancing Dadakan: Coba lakukan gerakan breakdance meski tidak
+            bisa, dan tunjukkan gayamu selama 30 detik.
           </p>
         </Card>
 
